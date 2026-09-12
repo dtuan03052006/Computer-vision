@@ -1,0 +1,41 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datasets and Media files (videos, images)
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights and checkpoints
+*.h5
+*.pt
+*.pth
+*.onnx
+*.weights
+*.tflite
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
