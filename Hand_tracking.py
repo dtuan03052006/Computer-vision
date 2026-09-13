@@ -1,4 +1,4 @@
-from sre_constants import SUCCESS
+
 import cv2
 import mediapipe as mp
 import time
@@ -40,7 +40,7 @@ class handDetector():
     def fingersUp(self):
         fingers = []
         # Thumb
-        if self.lmList[4][1] > self.lmList[3][1]:
+        if self.lmList[4][1] < self.lmList[3][1]:
             fingers.append(1)
         else:
             fingers.append(0)
